@@ -1,0 +1,251 @@
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+h1{
+  font-family: "Oswald";
+   font-size:3.5rem;
+  line-height: 1.5;
+  margin-bottom: 7%;
+}
+h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family: Oswald;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* section
+ */
+
+
+
+/*  title section   */
+
+.navbar{
+  font-family: "Montserrat";
+  padding:0 0 4.5rem;
+  font-weight: bold;
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.3rem;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.download-btn{
+  margin:7% 3% 5% 0;
+}
+.title-image{
+   width: 60%;
+   transform:rotate(25deg);
+    position: absolute;
+
+    right:30%;
+
+}
+
+
+
+
+/* feature section */
+
+
+
+
+
+
+@media (max-width:1128px){
+  .title-image{
+    transform:rotate(0);
+    position:static;
+    margin: 7% 15%;
+
+
+  }
+  #title{
+    text-align: center;
+  }
+  .card{
+    margin-top: 7%;
+  }
+
+
+  /* .testimonial-image2{
+    width:10%;
+    height: 40px;
+    border-radius: 50%;
+
+  } */
+}
+
+
+
+.lo-padding{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+
+.lo-padding:hover{
+  color: #ff4c68;
+}
+#features{
+  padding :7% 15%;
+  position: relative;
+  background-color: #fff;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+
+}
+
+
+/* testimonials  section coding starts from here*/
+
+
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+ padding-top: 4%;
+ position: relative;
+
+
+
+}
+.h2-ed{
+  font-family: "Oswald";
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#fff;
+
+
+}
+.testimonial-image{
+  border-radius: 100%;
+  width:10%;
+  margin:20px;
+
+}
+
+
+/* .testimonial-image2{
+  width:10%;
+  height:149px;
+   border-radius: 50%;
+    margin:20px;
+} */
+
+
+
+
+
+  /* progress */
+
+  #press{
+    background-color:  #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+
+/* pricing section coding start from here */
+
+#pricing{
+  padding: 100px;
+}
+
+
+.pricing-column{
+
+  text-align: center;
+    font-weight: bold;
+  }
+
+
+.pricing-h2{
+  font-size:3rem ;
+  text-align:center;
+}
+.inside-card{
+  font-size:2rem;
+  font-weight: bold;
+
+
+}
+.pricing-p{
+  text-align: center;
+  margin: 2% 0   4% 0;
+
+}
+
+
+/* download section coding */
+
+#cta{
+
+   background-color: #ff4c68;
+  color:#FFF;
+  text-align: center;
+  padding: 7% 15%;
+
+
+
+
+}
+
+.ending-class{
+  font-size: 3.5rem;
+  font-family: "Montserrat-black";
+  line-height: 1.5;
+  margin-bottom: 3%;
+  font-weight: bold;
+
+}
+.btn{
+  margin: 0 1% 0 2%;
+  padding: % 3% 2% 2%;
+
+}
+
+
+/* footer  section coding */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.social-icon{
+  margin:20px 10px;
+}
